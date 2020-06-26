@@ -19,3 +19,8 @@ docker-compose up
 - api/v1/places     --> lists venues on route (must enter origin and destination latitude, longitude values as a GET request parameter)
 - api/v1/favourites --> lists favourite venues of auth user (GET)
 - api/v1/favourites --> add places to favorites. (POST)
+
+
+####Note
+
+- Don't forget change the api keys in settings.py
